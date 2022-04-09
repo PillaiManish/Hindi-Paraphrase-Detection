@@ -19,5 +19,5 @@ from DetectionApp.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('as/', index),
+    path('', index),
 ]
